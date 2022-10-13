@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="343.0" prefWidth="494.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.miniproject.attendencesystem.registerController">
+   <children>
+      <Label fx:id="label" layoutX="137.0" layoutY="8.0" text="Register New Student">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="name" layoutX="194.0" layoutY="47.0" prefHeight="25.0" prefWidth="206.0" />
+      <Label layoutX="90.0" layoutY="44.0" text="Name">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="192.0" layoutY="80.0" text="Department">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="ds" layoutX="91.0" layoutY="114.0" mnemonicParsing="false" text="Data Science">
+         <toggleGroup>
+            <ToggleGroup fx:id="department" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="cs" layoutX="194.0" layoutY="114.0" mnemonicParsing="false" text="Computer Science" toggleGroup="$department" />
+      <RadioButton fx:id="mech" layoutX="258.0" layoutY="142.0" mnemonicParsing="false" text="Mechanical" toggleGroup="$department" />
+      <RadioButton fx:id="civil" layoutX="125.0" layoutY="142.0" mnemonicParsing="false" text="Civil Engineering" toggleGroup="$department" />
+      <RadioButton fx:id="ai" layoutX="327.0" layoutY="114.0" mnemonicParsing="false" text="AIML" toggleGroup="$department" />
+      <Label layoutX="90.0" layoutY="166.0" text="Division">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="division" layoutX="194.0" layoutY="169.0" prefHeight="25.0" prefWidth="206.0" />
+      <Label layoutX="229.0" layoutY="196.0" text="Year">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="te" layoutX="264.0" layoutY="228.0" mnemonicParsing="false" text="TE">
+         <toggleGroup>
+            <ToggleGroup fx:id="year" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="be" layoutX="322.0" layoutY="228.0" mnemonicParsing="false" text="FE" toggleGroup="$year" />
+      <RadioButton fx:id="se" layoutX="195.0" layoutY="228.0" mnemonicParsing="false" text="SE" toggleGroup="$year" />
+      <RadioButton fx:id="fe" layoutX="133.0" layoutY="228.0" mnemonicParsing="false" text="FE" toggleGroup="$year" />
+      <TextField fx:id="face" layoutX="92.0" layoutY="258.0" prefHeight="25.0" prefWidth="312.0" promptText="Face Data" />
+      <Button fx:id="add" layoutX="299.0" layoutY="298.0" mnemonicParsing="false" onAction="#addData" text="Add to Database" />
+      <Button layoutX="91.0" layoutY="298.0" mnemonicParsing="false" onAction="#close" text="Exit" />
+   </children>
+</AnchorPane>

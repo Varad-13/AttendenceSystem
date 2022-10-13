@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="120.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.miniproject.attendencesystem.adminLoginController">
+   <children>
+      <Button layoutX="257.0" layoutY="77.0" mnemonicParsing="false" onAction="#proceed" text="Proceed" />
+      <Label layoutX="32.0" layoutY="31.0" text="Enter Password">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Button layoutX="215.0" layoutY="77.0" mnemonicParsing="false" onAction="#close" text="Exit" />
+      <PasswordField fx:id="password" layoutX="175.0" layoutY="33.0" promptText="Password" />
+   </children>
+</Pane>

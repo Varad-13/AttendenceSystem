@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.miniproject.attendencesystem.faceController">
+   <children>
+      <Button fx:id="proceed" layoutX="258.0" layoutY="105.0" mnemonicParsing="false" onAction="#proceed" text="Proceed" />
+      <Label layoutX="36.0" layoutY="24.0" text="Verify Face Data">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <TextField fx:id="faceData" layoutX="32.0" layoutY="63.0" prefHeight="25.0" prefWidth="286.0" promptText="Face Data" />
+      <Button fx:id="exit" layoutX="213.0" layoutY="105.0" mnemonicParsing="false" onAction="#close" text="Exit" />
+   </children>
+</Pane>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="160.0" prefWidth="536.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.miniproject.attendencesystem.adminController">
+   <children>
+      <Label fx:id="text" layoutX="186.0" layoutY="29.0" text="ADMIN CONSOLE">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+      <Button layoutX="46.0" layoutY="96.0" mnemonicParsing="false" onAction="#addStudent" text="Register New Student" />
+      <Button layoutX="198.0" layoutY="96.0" mnemonicParsing="false" onAction="#editStudent" text="Change Student Details" />
+      <Button layoutX="364.0" layoutY="96.0" mnemonicParsing="false" onAction="#addAdmin" text="Add Admin Login" />
+      <Button layoutX="487.0" layoutY="14.0" mnemonicParsing="false" onAction="#close" text="Exit" />
+      <Button layoutX="207.0" layoutY="68.0" mnemonicParsing="false" onAction="#setTotal" text="Set total attendence" />
+   </children>
+</Pane>
