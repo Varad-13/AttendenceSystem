@@ -73,13 +73,6 @@ public class studentController {
         setText();
     }
     public void setText() throws SQLException {
-        db.getStudent(loginController.face);
-        attendence1.setText(String.valueOf(dbGetStudentDetails.attn1));
-        attendence2.setText(String.valueOf(dbGetStudentDetails.attn2));
-        attendence3.setText(String.valueOf(dbGetStudentDetails.attn3));
-        attendence4.setText(String.valueOf(dbGetStudentDetails.attn4));
-        attendence5.setText(String.valueOf(dbGetStudentDetails.attn5));
-        int total = dbGetStudentDetails.attn1 + dbGetStudentDetails.attn2 + dbGetStudentDetails.attn3 + dbGetStudentDetails.attn4 + dbGetStudentDetails.attn5;
         db.rollNo(1);
         s1.setText(String.valueOf(dbGetStudentDetails.attn1));
         s2.setText(String.valueOf(dbGetStudentDetails.attn2));
@@ -87,6 +80,13 @@ public class studentController {
         s4.setText(String.valueOf(dbGetStudentDetails.attn4));
         s5.setText(String.valueOf(dbGetStudentDetails.attn5));
         int stotal = dbGetStudentDetails.attn1 + dbGetStudentDetails.attn2 + dbGetStudentDetails.attn3 + dbGetStudentDetails.attn4 + dbGetStudentDetails.attn5;
+        db.getStudent(loginController.face);
+        attendence1.setText(String.valueOf(dbGetStudentDetails.attn1));
+        attendence2.setText(String.valueOf(dbGetStudentDetails.attn2));
+        attendence3.setText(String.valueOf(dbGetStudentDetails.attn3));
+        attendence4.setText(String.valueOf(dbGetStudentDetails.attn4));
+        attendence5.setText(String.valueOf(dbGetStudentDetails.attn5));
+        int total = dbGetStudentDetails.attn1 + dbGetStudentDetails.attn2 + dbGetStudentDetails.attn3 + dbGetStudentDetails.attn4 + dbGetStudentDetails.attn5;
         this.total.setText(String.valueOf(total));
         this.stotal.setText(String.valueOf(stotal));
         float percentage = ((float) total/(float) stotal)*100;

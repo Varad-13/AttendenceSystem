@@ -10,8 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb513602-c38c-47ad-8dc8-ce514518667f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/AttendenceSystem_jar/AttendenceSystem.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AttendenceSystem_jar/AttendenceSystem.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/miniproject/attendencesystem/studentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miniproject/attendencesystem/studentController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
