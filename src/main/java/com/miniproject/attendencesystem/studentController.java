@@ -46,6 +46,33 @@ public class studentController {
         stage.show();
     }
     public void initialize() throws SQLException {
+        setText();
+    }
+    public void close(){
+        Stage stage = (Stage) attendence1.getScene().getWindow();
+        stage.hide();
+    }
+    public void attendence1() throws SQLException {
+        db.Updateattn1(dbGetStudentDetails.attn1+1, loginController.face);
+        setText();
+    }
+    public void attendence2() throws SQLException {
+        db.Updateattn2(dbGetStudentDetails.attn2+1, loginController.face);
+        setText();
+    }
+    public void attendence3() throws SQLException {
+        db.Updateattn3(dbGetStudentDetails.attn3+1, loginController.face);
+        setText();
+    }
+    public void attendence4() throws SQLException {
+        db.Updateattn4(dbGetStudentDetails.attn4+1, loginController.face);
+        setText();
+    }
+    public void attendence5() throws SQLException {
+        db.Updateattn5(dbGetStudentDetails.attn5+1, loginController.face);
+        setText();
+    }
+    public void setText() throws SQLException {
         db.getStudent(loginController.face);
         attendence1.setText(String.valueOf(dbGetStudentDetails.attn1));
         attendence2.setText(String.valueOf(dbGetStudentDetails.attn2));
@@ -64,29 +91,5 @@ public class studentController {
         this.stotal.setText(String.valueOf(stotal));
         float percentage = ((float) total/(float) stotal)*100;
         this.percentage.setText(String.valueOf(percentage));
-    }
-    public void close(){
-        Stage stage = (Stage) attendence1.getScene().getWindow();
-        stage.hide();
-    }
-    public void attendence1() throws SQLException {
-        attendence5.setText(String.valueOf(dbGetStudentDetails.attn1+1));
-        initialize();
-    }
-    public void attendence2() throws SQLException {
-        attendence5.setText(String.valueOf(dbGetStudentDetails.attn2+1));
-        initialize();
-    }
-    public void attendence3() throws SQLException {
-        attendence5.setText(String.valueOf(dbGetStudentDetails.attn3+1));
-        initialize();
-    }
-    public void attendence4() throws SQLException {
-        attendence5.setText(String.valueOf(dbGetStudentDetails.attn4+1));
-        initialize();
-    }
-    public void attendence5() throws SQLException {
-        attendence5.setText(String.valueOf(dbGetStudentDetails.attn5+1));
-        initialize();
     }
 }

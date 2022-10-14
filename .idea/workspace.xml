@@ -10,30 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb513602-c38c-47ad-8dc8-ce514518667f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miniproject/attendencesystem/addAdminController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miniproject/attendencesystem/adminLoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miniproject/attendencesystem/alertController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miniproject/attendencesystem/dbGetStudentDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miniproject/attendencesystem/dbUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miniproject/attendencesystem/driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miniproject/attendencesystem/editStudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miniproject/attendencesystem/faceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miniproject/attendencesystem/loginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miniproject/attendencesystem/registerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/miniproject/attendencesystem/studentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/AttendenceSystem_jar/AttendenceSystem.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/AttendenceSystem_jar/AttendenceSystem.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/miniproject/attendencesystem/studentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/miniproject/attendencesystem/studentController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,18 +38,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Varad/Desktop/AttendenceSystem/dependencies/mysql-connector-java-8.0.30.jar",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.37241378"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Varad/Desktop/AttendenceSystem/dependencies/mysql-connector-java-8.0.30.jar&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.37241378&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JAR Application.AttendenceSystem.jar">
+}</component>
+  <component name="RunManager" selected="Application.driver">
     <configuration name="driver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.miniproject.attendencesystem.driver" />
       <module name="AttendenceSystem" />
@@ -90,8 +69,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JAR Application.AttendenceSystem.jar" />
         <item itemvalue="Application.driver" />
+        <item itemvalue="JAR Application.AttendenceSystem.jar" />
       </list>
     </recent_temporary>
   </component>
